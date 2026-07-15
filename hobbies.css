@@ -1,0 +1,78 @@
+footer {
+    font-family: "Cormorant Garamond", serif;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background: #121444;
+    color: #F0F2F5;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    padding: 20px 0;
+    border-bottom: 2px solid #678ded;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F0F2F5;
+    font-weight: 500 bold;
+    font-family: "Changa One", sans-serif;
+
+}
+
+nav a:hover {
+    color: #6EE7C8;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+a {
+    color:#F0F2F5;
+}
+
+a:hover {
+    color: #6EE7C8;
+}
+
+body p {
+    color: #000000;
+    background-color:#C7C9FF;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    letter-spacing: 12px;
+}
+
+summary {
+    background: #F8C8DC;
+    color:#121444;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+details {
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+.hobbies-link {
+    font-size: 25px;
+    color: #6EE7C8;
+}
