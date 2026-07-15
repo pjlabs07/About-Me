@@ -1,0 +1,103 @@
+footer {
+    font-family: "Cormorant Garamond", serif;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background: #121444;
+    color:#F0F2F5;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    padding: 20px 0;
+    border-bottom: 2px solid #678ded;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F0F2F5;
+    font-weight: 500 bold;
+    font-family: "Changa One", sans-serif;
+}
+
+nav a:hover {
+    color: #6EE7C8;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color:#F0F2F5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6EE7C8;
+}
+
+body p {
+    color: #000000;
+    background-color:#C7C9FF;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+    font-size: 200px;
+    margin: 4px;
+    letter-spacing: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+summary {
+    background-color: #F8C8DC;
+    color:#000000;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.home-link {
+    font-size: 25px;
+    color: #6EE7C8;
+    font-weight: 700;
+}
+
+ul {
+    background-color: #F8C8DC;
+    color: #000000;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li {
+    margin: 8px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.photo-me {
+    background-color: #C7C9FF;
+    padding: 15px;
+    border-radius: 5px;
+}
